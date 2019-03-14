@@ -24,6 +24,10 @@ class Hacker {
         this.revised = true;
     }
 
+    static testSkills() {
+        return 'Coding Skills will be tested';
+    }
+
 }
 
 //Instantiate
@@ -32,3 +36,4 @@ const hacker1 = new Hacker('Frey', 'Javascript', 'male', '1990');
 console.log(hacker1.getAge());
 hacker1.reviseAge('2000');
 console.log(hacker1.getAge());
+console.log(Hacker.testSkills());
